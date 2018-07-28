@@ -12,10 +12,9 @@ I created this addon for beginers or learner who are going to try object detecti
 ## Usage
 See Examples
 
-
 ### camera
-Realtime Detection example for webcam video.
-![demo video](https://youtu.be/As8lshBRrho)
+Realtime Detection example for webcam video. It runs around 15-19 fps on my MacBook Pro ( 13-inch, 2016 )
+![demo video](ofxMobileNetSSD.gif)
 
 ## Install
 ### 1. Install OpenCV by brew.
@@ -26,6 +25,9 @@ Realtime Detection example for webcam video.
 Based on OpenCV version, Please re-write ofxMobileNetSSD/addon_config.mk file. End of the file, there are some description about opencv path for your system. Please re-write the version according to your OpenCV version. Current (2018/7/28) is 3.4.2, If you find other version on your directory tree, /usr/local/Cellar/opencv , please do not forget fill in the correct version on the addon_config.mk file. You can get your current opencv version by typing below command.
 
     $ ls /usr/local/Cellar/opencv
+
+### 3. Import and update camera example folder by projectgenerator. 
+### 4. Run
 
 ## Compatibility
 - only macOS ( tested on Hight Sierra and Sierra)
