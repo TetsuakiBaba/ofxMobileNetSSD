@@ -1,5 +1,7 @@
 # ofxMobileNetSSD
 
+## This project was merged into ofxOpenCvDnnObjectDetection ( https://github.com/TetsuakiBaba/ofxOpenCvDnnObjectDetection ), therefore, it is not maintained any more. 
+
 ## Description
 ofxMobileNetSSD is a SSD(Single Shot Multibox Detection) with a voc mobilenet model addon for openframeworks.
 Please refer Tensorflow Object Detection API for more details. https://github.com/tensorflow/models/tree/master/research/object_detection
